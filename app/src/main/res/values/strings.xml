@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Paper Rolls</string>
+    <string name="ok">OK</string>
+    <!-- <string name="environment">sandbox</string> -->
+    <string name="environment">usa</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_clover_account">Can\'t find clover account. Please try again</string>
+</resources>
