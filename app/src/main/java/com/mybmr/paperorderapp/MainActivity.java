@@ -14,6 +14,8 @@ import android.webkit.WebViewClient;
 
 import com.mybmr.paperorderapp.utils.Pref;
 import com.mybmr.paperorderappp.R;
+import com.rollbar.android.Rollbar;
+
 
 public class MainActivity extends Activity {
     private WebView webView;
@@ -30,6 +32,9 @@ public class MainActivity extends Activity {
         Log.d("mk", Pref.getValue(MainActivity.this,"m_id",""));
 
         activity = this;
+
+        Rollbar.init(activity);
+        //Rollbar.instance().error(new Exception("This is a test error"));
 
         progDailog = ProgressDialog.show(activity, "Loading", "Please wait...", true);
         progDailog.setCancelable(false);

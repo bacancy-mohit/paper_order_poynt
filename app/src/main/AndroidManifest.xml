@@ -14,6 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.rollbar.android.ACCESS_TOKEN"
+            android:value="ab22d828412744d18bd792285fe4d8db" />
+
         <activity android:name="com.mybmr.paperorderapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
